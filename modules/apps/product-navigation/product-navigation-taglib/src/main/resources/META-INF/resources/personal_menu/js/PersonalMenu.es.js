@@ -95,7 +95,7 @@ function PersonalMenu({
 	return (
 		<ClayDropDownWithItems
 			items={items}
-			menuElementAttrs={{className: 'dropdown-menu-personal-menu'}}
+			menuElementAttrs={{className: 'dropdown-menu-personal-testando'}}
 			trigger={
 				label ? (
 					<div
