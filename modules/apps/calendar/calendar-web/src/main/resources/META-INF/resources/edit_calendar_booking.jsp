@@ -1047,6 +1047,12 @@ while (manageableCalendarsIterator.hasNext()) {
 
 	if (allDayCheckbox) {
 		allDayCheckbox.addEventListener('click', (event) => {
+			var endDateContainer = document.getElementById(
+				'<portlet:namespace />endDateContainer'
+			);
+			var startDateContainer = document.getElementById(
+				'<portlet:namespace />startDateContainer'
+			);
 			var endTimeHours;
 			var endTimeMinutes;
 			var startTimeHours;
